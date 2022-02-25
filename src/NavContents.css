@@ -1,0 +1,19 @@
+.navContents_container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin:0 20px;
+    color:grey;
+}
+.navContents_container:hover{
+  cursor: pointer;
+  color: black;
+}
+.navContents_container > h3{
+    font-size: 10px;
+}
+.navContents_icon{
+    height:25px!important;
+    width:25px;
+    object-fit: contain; 
+}

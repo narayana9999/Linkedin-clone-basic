@@ -1,0 +1,46 @@
+.posts_container{
+    border:1px solid lightgray;
+    margin:20px;
+    background-color: white;
+    border-radius: 10px;
+    color:gray;
+    padding-top:5px;
+    padding-left:20px;
+}
+.posts_header{
+    display:flex;
+    
+}
+.posts_header .sidebar_avatar{
+    position:static;
+}
+.posts_header > p{
+    margin-top:20px;
+    margin-right:20px;
+}
+.posts_name{
+    font-size: 1rem;
+    font-weight: bolder;
+    color:black;
+}
+.posts_des{
+    font-size: 0.8rem;
+}
+.posts_info{
+    margin-left:15px;
+}
+.posts_body{
+    color:black;
+    font-weight: 400;
+    overflow-wrap: anywhere;
+}
+.posts_body > p{
+    padding-left:20px;
+    padding-right:20px;
+}
+.posts_options{
+    display:flex;
+    padding-top:20px;
+    justify-content: space-between;
+    width:400px;
+}
